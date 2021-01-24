@@ -8,34 +8,21 @@ minimize program: key('win-down')
 show desktop: key("win-d")
 launch explorer: key("win-e")
 
-jump down:
+jump down <number>:
     key(down)
-    key(down)
-    key(down)
-    key(down)
-    key(down)
+    repeat(number)
 
-jump up:
+jump up <number>:
     key(up)
-    key(up)
-    key(up)
-    key(up)
-    key(up)
+    repeat(number)
 
-jump left:
+jump left <number>:
     key(left)
-    key(left)
-    key(left)
-    key(left)
-    key(left)
+    repeat(number)
 
-jump right:
+jump right <number>:
     key(right)
-    key(right)
-    key(right)
-    key(right)
-    key(right)
-
+    repeat(number)
 
 single quote: key("'")
 
