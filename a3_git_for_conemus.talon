@@ -9,3 +9,5 @@ app: Terminus.exe
 # So git commands also should work in terminals other then cmd.exe
 tag(): terminal
 tag(): user.git
+
+git log <number>: "git lg -{number}\n"
