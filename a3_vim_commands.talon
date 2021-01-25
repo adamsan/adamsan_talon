@@ -3,12 +3,14 @@ app:gvim.exe
 app:jetbrains
 -
 # for vim's or ideavim's registers
-registers list: 
+(list registers | registers list): 
     key(esc)
     ':registers\n'
 
-register <number>:
-    '"{number}'
+register <number>: '"{number}'
 
-register <user.letter>:
-    '"{user.letter}'
+register <user.letter>: '"{user.letter}'
+
+mark <user.letter>: "m{user.letter}"
+
+jump mark <user.letter>: "'{user.letter}"
