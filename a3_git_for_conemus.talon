@@ -15,3 +15,7 @@ git commit amend: "git commit --amend"
 git commit add message: 'git commit -am '
 git diff cached: "git diff --cached"
 git diff head: "git diff @~1 @"
+
+command grep: "grep "
+command list: "ls -la"
+show processes: "ps aux"
