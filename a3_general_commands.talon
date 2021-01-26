@@ -7,7 +7,8 @@ wipe word <number>:
     repeat(number)
 press menu: key('menu')
 close program: key('alt-f4')
-minimize program: key('win-down')
+maximize (window | program): key('win-up')
+minimize (window | program): key('win-down')
 show desktop: key("win-d")
 launch explorer: key("win-e")
 

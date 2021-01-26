@@ -1,6 +1,6 @@
 app: ConEmu64.exe
 or
-app: cmd.exeh
+app: cmd.exe
 or
 app: WindowsTerminal.exe
 or
@@ -11,3 +11,7 @@ tag(): terminal
 tag(): user.git
 
 git log <number>: "git lg -{number}\n"
+git commit amend: "git commit --amend"
+git commit add message: 'git commit -am '
+git diff cached: "git diff --cached"
+git diff head: "git diff @~1 @"
