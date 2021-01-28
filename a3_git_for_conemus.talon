@@ -26,8 +26,12 @@ git xcommit message:
 
 git diff cached: "git diff --cached\n"
 
-# special chars @, ~ do not work in cmd.exe
-git diff head: "git diff @~1 @"
+git diff head:
+    "git diff "
+    key("@")
+    key('~')
+    "1 "
+    key("@")
 
 change dir: "cd "
 command grep: "grep "
