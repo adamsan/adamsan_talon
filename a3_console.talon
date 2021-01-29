@@ -28,3 +28,8 @@ bigdaddy: 'cd ..\\..\n'
 go root: 'cd /'
 go drive {user.letter}: "cd /d {letter}:\n"
 go temp: 'cd /tmp'
+
+conda activate: "conda activate "
+conda deactivate: "conda deactivate"
+conda activate exercises: "conda activate Exercises"
+jupyter notebook: "jupyter notebook"

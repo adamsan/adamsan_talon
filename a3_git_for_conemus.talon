@@ -11,7 +11,7 @@ tag(): terminal
 tag(): user.git
 
 git log <number>: "git lg -{number}\n"
-git force push: : "git push -f"
+git force push: "git push -f"
 git commit amend: "git commit --amend"
 git commit add message:
     'git commit -am '
