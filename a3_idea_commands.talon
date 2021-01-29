@@ -9,5 +9,9 @@ idea git: key('alt-9')
 bookmark (line|this): key('ctrl-f11')
 show bookmarks|bookmarks show: key('shift-f11')
 
+tab close: key('ctrl-f4')
+tab last: key('alt-left')
+tab next: key('alt-right')
+
 # for idea AceJump plugin
 ace jump: key('ctrl-;')
