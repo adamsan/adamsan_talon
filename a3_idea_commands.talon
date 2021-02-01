@@ -13,5 +13,8 @@ tab close: key('ctrl-f4')
 tab last: key('alt-left')
 tab next: key('alt-right')
 
+last method: key('alt-up')
+next method: key('alt-down')
+
 # for idea AceJump plugin
 ace jump: key('ctrl-;')

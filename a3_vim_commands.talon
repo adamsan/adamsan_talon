@@ -14,3 +14,8 @@ register <user.letter>: '"{user.letter}'
 mark <user.letter>: "m{user.letter}"
 
 jump mark <user.letter>: "'{user.letter}"
+
+surround <number> words: "ys{number}aw"
+surround line: 'yss'
+change surrounding <user.symbol_key>:"cs{symbol_key}"
+delete surrounding: "ds"
