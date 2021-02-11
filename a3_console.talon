@@ -1,9 +1,6 @@
 app: ConEmu64.exe
-or
 app: cmd.exe
-or
 app: WindowsTerminal.exe
-or
 app: Terminus.exe
 -
 change dir: "cd "
@@ -22,6 +19,7 @@ go talon user: "cd /d {path.talon_user()}\n"
 go (idea | intellij): 'cd /d C:\\Users\\Adamsan\\IdeaProjects\n'
 go (pycharm | pie charm): 'cd /d C:\\Users\\Adamsan\\PycharmProjects\n'
 go workspace: 'cd /d D:\\workspaces'
+go spring: 'cd /d d:\\workspaces\\spring_projects'
 go (jupyter|notebooks): 'cd /d D:\\workspaces\\jupyter_notebooks\n'
 daddy: 'cd ..\n'
 bigdaddy: 'cd ..\\..\n'
