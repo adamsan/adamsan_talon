@@ -1,3 +1,5 @@
+app: ConEmu.exe
+or
 app: ConEmu64.exe
 or
 app: cmd.exe
@@ -33,3 +35,8 @@ git diff head:
     key('~')
     "1 "
     key("@")
+
+git stash show: "git stash show -p"
+git stash show <number>: "git stash show -p {number}"
+
+git track remote: "git co --track origin/"

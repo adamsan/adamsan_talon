@@ -9,5 +9,6 @@ go open see wee: user.file_manager_open_user_directory('E:\\OpenCV\\opencv\\sour
 go films: user.file_manager_open_user_directory('E:\\Film')
 go films d: user.file_manager_open_user_directory('D:\\Film')
 go music: user.file_manager_open_user_directory('D:\\Music')
+go photos: user.file_manager_open_user_directory('D:\\Kepek\\Fotok')
 
 go calota saggy: user.file_manager_open_user_directory('E:\\VolkDance\\neptanc_\\kalotaszegi')
