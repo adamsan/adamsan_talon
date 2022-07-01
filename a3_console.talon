@@ -1,3 +1,4 @@
+app: ConEmu.exe
 app: ConEmu64.exe
 app: cmd.exe
 app: WindowsTerminal.exe
@@ -31,3 +32,9 @@ conda activate: "conda activate "
 conda deactivate: "conda deactivate"
 conda activate exercises: "conda activate Exercises"
 jupyter notebook: "jupyter notebook"
+
+idea pom: "idea64 pom.xml"
+
+docker build: "docker build . -t "
+docker run: "docker run"
+docker compose up: "docker-compose up"

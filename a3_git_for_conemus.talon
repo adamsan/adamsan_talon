@@ -40,3 +40,5 @@ git stash show: "git stash show -p"
 git stash show <number>: "git stash show -p {number}"
 
 git track remote: "git co --track origin/"
+
+git clone: "git clone "
